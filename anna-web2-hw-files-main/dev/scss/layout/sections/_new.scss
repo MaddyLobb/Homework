@@ -1,0 +1,20 @@
+/* =============
+    New
+============= */
+#new{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". new .";
+
+    @include lg{
+        grid-template-columns: auto 60% auto;
+    }
+
+    @include xl{
+        grid-template-columns: auto 800px auto;
+    }
+
+    >div{
+        grid-area: new;
+    }
+}
