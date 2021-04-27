@@ -412,3 +412,118 @@ footer {
 footer > div {
   grid-area: footer;
 }
+
+/* =============
+    Search
+============= */
+#search > div {
+  padding: 15px;
+}
+#search > div img {
+  width: 120px;
+}
+
+/*==========
+HERO
+=========== */
+#hero img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #hero section {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". hero-content .";
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  #hero section ul {
+    grid-area: hero-content;
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  #hero section ul {
+    grid-template-columns: 50% auto;
+  }
+}
+/* =============
+    Planning
+============= */
+#planning {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". planning .";
+}
+#planning > div {
+  grid-area: planning;
+}
+
+/* =============
+    Hero-2
+============= */
+#hero-2 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero-2 .";
+}
+@media (min-width: 1200px) {
+  #hero-2 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#hero-2 > div {
+  grid-area: hero-2;
+}
+#hero-2 > div ul {
+  display: grid;
+  gap: 16px;
+  grid-template-areas: "hero-2-1" "hero-2-2" "hero-2-3";
+}
+@media (min-width: 768px) {
+  #hero-2 > div ul {
+    grid-template-areas: "hero-2-1 hero-2-1" "hero-2-2 hero-2-3";
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #hero-2 > div ul {
+    grid-template-areas: "hero-2-1 hero-2-2" "hero-2-1 hero-2-3";
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#hero-2 > div ul li img {
+  width: 100%;
+}
+#hero-2 > div ul #hero-2-1 {
+  grid-area: hero-2-1;
+}
+#hero-2 > div ul #hero-2-2 {
+  grid-area: hero-2-2;
+}
+#hero-2 > div ul #hero-2-3 {
+  grid-area: hero-2-3;
+}
+
+/* =============
+    New
+============= */
+#new {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". new .";
+}
+@media (min-width: 1024px) {
+  #new {
+    grid-template-columns: auto 60% auto;
+  }
+}
+@media (min-width: 1200px) {
+  #new {
+    grid-template-columns: auto 800px auto;
+  }
+}
+#new > div {
+  grid-area: new;
+}

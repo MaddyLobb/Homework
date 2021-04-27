@@ -442,7 +442,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/sections\/_hero-2.scss" : {
+    "\/dev\/scss\/sections\/_hero-2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -450,13 +450,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/sections\/_hero-2.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero-2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/sections\/_hero.scss" : {
+    "\/dev\/scss\/sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -464,13 +464,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/sections\/_hero.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/sections\/_new.scss" : {
+    "\/dev\/scss\/sections\/_new.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -478,13 +478,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/sections\/_new.css",
+      "oAP" : "\/dev\/scss\/sections\/_new.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/sections\/_planning.scss" : {
+    "\/dev\/scss\/sections\/_planning.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -492,13 +492,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/sections\/_planning.css",
+      "oAP" : "\/dev\/scss\/sections\/_planning.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/sections\/_search.scss" : {
+    "\/dev\/scss\/sections\/_search.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -506,7 +506,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/sections\/_search.css",
+      "oAP" : "\/dev\/scss\/sections\/_search.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
