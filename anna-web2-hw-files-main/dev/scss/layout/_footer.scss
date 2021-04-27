@@ -15,14 +15,14 @@ footer{
 
         @include md{
             display: grid;
-            grid-template-columns: repeat(2.1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "f1 f2"
             "f1 f3";
             gap: 16px;
         }
 
         @include lg{
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
             grid-template-areas: "f1 f2 f3";
         }
 

@@ -2,52 +2,53 @@
     Hero-2
 ============= */
 #hero-2{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero-2 .";
 
-    @include xl{
-        grid-template-columns: auto 1200px auto;
+    @include xxl{
+        display: grid;
+        grid-template-columns: auto 1350px auto;
+        grid-template-areas: ". hero-2 .";
     }
-
-    >div{
-        grid-area: hero-2;
-
-        ul{
+    
+    ul{
+        @include md{
             display: grid;
-            gap: 16px;
-            grid-template-areas: "hero-2-1"
-            "hero-2-2"
-            "hero-2-3";
+            grid-template-columns: 50% auto;
+        }
 
-            @include md{
-                grid-template-areas: "hero-2-1 hero-2-1"
-                                    "hero-2-2 hero-2-3";
-                grid-template-columns: 50% auto;
+        @include xl{
+            grid-template-columns: 70% auto;
+            grid-template-areas: "h2-1 h2-2"
+                                 "h2-1 h2-3";
+        }
+
+        @include xxl{
+            grid-area: hero-2;
+        }
+
+
+
+
+        li{
+            img{
+                width: 100%;
             }
+        }
 
-            @include lg{
-                grid-template-areas: "hero-2-1 hero-2-2"
-                                    "hero-2-1 hero-2-3";
-                grid-template-columns: repeat(3,1fr);
+        #h2-1{
+            @include xl{
+                grid-area: h2-1;
             }
+        }
 
-            li{
-                img{
-                    width: 100%;
-                }
+        #h2-2{
+            @include xl{
+                grid-area: h2-2;
             }
+        }
 
-            #hero-2-1{
-                grid-area: hero-2-1;
-            }
-
-            #hero-2-2{
-                grid-area: hero-2-2;
-            }
-
-            #hero-2-3{
-                grid-area: hero-2-3;
+        #h2-3{
+            @include xl{
+                grid-area: h2-3;
             }
         }
     }
