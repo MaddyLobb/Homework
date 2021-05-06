@@ -477,9 +477,9 @@ footer > div {
   }
 }
 
-/*==========
-HERO
-=========== */
+/* =============
+    Hero
+============= */
 #hero img {
   width: 100%;
 }
@@ -526,9 +526,9 @@ HERO
   }
 }
 /* =============
-    Hero-2
+    Hero 2
 ============= */
-@media (min-width: 1200px) {
+@media (min-width: 1350px) {
   #hero-2 {
     display: grid;
     grid-template-columns: auto 1350px auto;
@@ -547,7 +547,7 @@ HERO
     grid-template-areas: "h2-1 h2-2" "h2-1 h2-3";
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1350px) {
   #hero-2 ul {
     grid-area: hero-2;
   }

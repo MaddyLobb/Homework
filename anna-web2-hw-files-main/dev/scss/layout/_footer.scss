@@ -9,7 +9,6 @@ footer{
     @include xl{
         grid-template-columns: auto 1200px auto;
     }
-
     >div{
         grid-area: footer;
 
