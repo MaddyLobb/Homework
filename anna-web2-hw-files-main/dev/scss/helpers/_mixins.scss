@@ -144,4 +144,8 @@ html {
 // }
 
 
-
+@mixin xxl {
+    @media (min-width: #{$screen-xxl-min}) {
+        @content;
+    }
+}
