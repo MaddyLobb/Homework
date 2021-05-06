@@ -2,6 +2,7 @@
     Footer
 ============= */
 footer{
+    background-color: $nightdark;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
@@ -42,6 +43,16 @@ footer{
             @include md{
                 grid-area: f3;
             }
+        }
+
+        section id="f2"{
+            button{
+                background-color: $eletricglow;
+            }
+        }
+
+        section{
+            color: $white;
         }
     }
 }
