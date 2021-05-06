@@ -3,6 +3,30 @@
 ============= */
 #hero-2{
 
+    background-image: url('img/hero-2/hero-2-1.jpg');
+    background-position: center;
+    height: 361px;
+
+    @include md{
+        height: 594px;
+    }
+
+    background-image: url('img/hero-2/hero-2-2.jpg');
+    background-position: center;
+    height: 361px;
+
+    @include md{
+        height: 594px;
+    }
+
+    background-image: url('img/hero-2/hero-2-3.jpg');
+    background-position: center;
+    height: 361px;
+
+    @include md{
+        height: 594px;
+    }
+
     @include xxl{
         display: grid;
         grid-template-columns: auto 1350px auto;

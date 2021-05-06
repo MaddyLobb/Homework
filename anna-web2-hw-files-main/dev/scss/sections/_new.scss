@@ -2,6 +2,45 @@
     New
 ============= */
 #new{
+    background-image: url('img/new/gallery-1.jpg');
+    background-position: center;
+    height: 164px;
+
+    @include md{
+        height: 184px;
+    }
+
+    background-image: url('img/new/gallery-2.jpg');
+    background-position: center;
+    height: 164px;
+
+    @include md{
+        height: 184px;
+    }
+
+    background-image: url('img/new/gallery-3.jpg');
+    background-position: center;
+    height: 164px;
+
+    @include md{
+        height: 184px;
+    }
+
+    background-image: url('img/new/gallery-4.jpg');
+    background-position: center;
+    height: 164px;
+
+    @include md{
+        height: 184px;
+    }
+
+    background-image: url('img/new/gallery-5.jpg');
+    background-position: center;
+    height: 164px;
+
+    @include md{
+        height: 184px;
+    }
 
     @include md{
         display: grid;
